@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Desconferencia'
+AUTHOR = u'Leonardo'
 SITENAME = u'Desconferencia 2.0'
-SITEURL = 'https://softwarelibreec.github.io/desconferencia-2.0'
+SITEURL = 'https://gomezgleonardob.dev'
 
 PATH = 'content'
 
@@ -20,8 +20,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 
-HEADER_COVER = f'images/cover.png'
-SITESUBTITLE = 'Desconferencia de tecnología y seguridad, segunda edición'
+HEADER_COVER = f'images/background.jpg'
+SITESUBTITLE = 'Blog'
 CSS_OVERRIDE = (
     f'{SITEURL}/static/css/custom.css',
 )

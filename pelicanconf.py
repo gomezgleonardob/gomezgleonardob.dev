@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Leonardo'
-SITENAME = u'Desconferencia 2.0'
+SITENAME = u'Blog'
 SITEURL = 'https://gomezgleonardob.dev'
 
 PATH = 'content'
@@ -51,7 +51,7 @@ TYPOGRIFY = True
 RELATIVE_URLS = True
 
 # Theme - pelican-blue
-THEME = 'themes/attila'
+THEME = 'themes/pelican-sober'
 
 
 

@@ -1,0 +1,18 @@
+language: python
+python:
+  - 3.7
+install:
+  - pip3 install -r requirements.txt
+script:
+  - make html
+  - make publish
+
+deploy:
+  local_dir: output
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  target_branch: gh-pages
+  on:
+    branch: master

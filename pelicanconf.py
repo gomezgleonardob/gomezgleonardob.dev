@@ -84,6 +84,5 @@ DAY_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}.html'
 
 PLUGINS = [
     # ...
-    'pelican_youtube',
     # ...
 ]

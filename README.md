@@ -2,7 +2,7 @@
 
 Based on Pelican Static Site Generator
 
-# Web **https://gomezgleonardob.dev**
+# Web **https://gomezgleonardo.xyz**
 
 # CI
 
